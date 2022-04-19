@@ -20,6 +20,7 @@ ninjas.push('warwick');
 let mixed: (string | number | boolean)[] = [];
 mixed.push('hello');
 mixed.push(20);
-mixed.push(false)
+mixed.push(false);
+console.log(mixed)
 
 // objects
