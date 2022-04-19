@@ -1,18 +1,16 @@
-let character = 'patrick';
-let age = 19;
-let isStupid = true;
+//ararys 
+let names = ['patrick', 'sandy', 'krabbs']
 
-//character = 20;
-character = 'spongeBob';
+names.push('spongebob');
+//names.push(54);
+// nmaes[0] = 8;
 
-//age = 'patrick';
-age = 56;
+let numbers = [10, 20, 40, 3];
+// numbers.push('weird');
+// numbers[1] = 'weird';
 
-//isStupid = 'yes';
-isStupid = false;
+let mixed = ['ken', 4, 'gary', 6, 9];
 
-const circ = (diameter: number) => {
-  return diameter * Math.PI;
-}
-
-console.log(circ(7.5))
+mixed.push('lary');
+mixed.push(10);
+mixed[0] = 3;
