@@ -17,6 +17,9 @@ ninjas.push('warwick');
 
 
 // union types
-
+let mixed: (string | number)[] = [];
+mixed.push('hello');
+mixed.push(20);
+mixed.push(false)
 
 // objects
