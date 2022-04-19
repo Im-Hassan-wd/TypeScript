@@ -1,4 +1,3 @@
-var character = 'mario';
-console.log(character);
-var inputs = document.querySelectorAll('input');
-console.log(inputs);
+var character = 'patrick';
+var age = 19;
+var isStupid = true;
