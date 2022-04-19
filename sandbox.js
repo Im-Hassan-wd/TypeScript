@@ -10,4 +10,8 @@ isLoggedIn = true;
 var ninjas = [];
 ninjas.push('warwick');
 // union types
+var mixed = [];
+mixed.push('hello');
+mixed.push(20);
+mixed.push(false);
 // objects
