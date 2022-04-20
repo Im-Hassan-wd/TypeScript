@@ -8,6 +8,14 @@ greet = (name: string, greeting: string) => {
 }
 
 // example 2
+let calc: (a: number, b: number, c: string) => number
 
+calc = (numOne: number, numTwo: number, action: string) => {
+  if(action === 'add') {
+    return numOne + numTwo
+  } else {
+    return numOne - numTwo
+  }
+}
 
 // example 3
