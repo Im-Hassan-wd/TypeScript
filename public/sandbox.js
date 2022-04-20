@@ -16,3 +16,7 @@ calc = (numOne, numTwo, action) => {
     }
 };
 // example 3
+let logDetails;
+logDetails = (ninja) => {
+    console.log(`${ninja.name} is ${ninja.age} years old`);
+};
