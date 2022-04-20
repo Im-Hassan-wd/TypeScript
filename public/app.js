@@ -6,7 +6,13 @@ class Invoice {
         this.details = d;
         this.amount = a;
     }
+    format() {
+        return `${this.client} owes £${this.amount} for ${this.details}`;
+    }
 }
+const invOne = new Invoice('patrick', 'work in the mario website', 250);
+const invTwo = new Invoice('gary', 'work in the gary website', 300);
+console.log(invOne, invTwo);
 const form = document.querySelector('.new-item-form');
 // inputs
 const type = document.querySelector('#type');
