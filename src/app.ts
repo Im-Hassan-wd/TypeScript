@@ -1,16 +1,23 @@
-// const anchor = document.querySelector('a')!;
+// classes
+class Invoice {
+  client: string;
+  details: string;
+  amount: number;
 
-// if(anchor) {
-//   console.log(anchor.href)
-// }
+  constructor(c: string, d: string, a: number) {
+    this.client = c;
+    this.details = d;
+    this.amount = a;
+  }
+}
 
-// const form = document.querySelector('form')!;
+
+
 const form = document.querySelector('.new-item-form') as HTMLFormElement;
-// console.log(form.children);
 
 // inputs
 const type = document.querySelector('#type') as HTMLSelectElement;
-const toFrom = document.querySelector('#tofrmom') as HTMLInputElement;
+const toFrom = document.querySelector('#tofrom') as HTMLInputElement;
 const details = document.querySelector('#details') as HTMLInputElement;
 const amount = document.querySelector('#amount') as HTMLInputElement;
 
@@ -21,6 +28,6 @@ form.addEventListener('submit', (e: Event) => {
     type.value,
     details.value,
     toFrom.value,
-    amount.value
+    amount.valueAsNumber
   );
 })
