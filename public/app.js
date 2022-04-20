@@ -5,4 +5,13 @@
 // }
 // const form = document.querySelector('form')!;
 const form = document.querySelector('.new-item-form');
-console.log(form.children);
+// console.log(form.children);
+// inputs
+const type = document.querySelector('#type');
+const toFrom = document.querySelector('#tofrmom');
+const details = document.querySelector('#details');
+const amount = document.querySelector('#amount');
+form.addEventListener('submit', (e) => {
+    e.preventDefault();
+    console.log(type.value, details.value, toFrom.value, amount.value);
+});
