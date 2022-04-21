@@ -25,7 +25,7 @@ const greetPerson = (person: IsPerson) => {
 greetPerson(me)
 
 
-import { Invoice } from "./classes/invoice.js";
+import { Invoice } from "./classes/Invoice.js";
 
 const invOne = new Invoice('patrick', 'work in the mario website', 250);
 const invTwo = new Invoice('gary', 'work in the gary website', 300);
