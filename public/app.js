@@ -1,19 +1,9 @@
-const me = {
-    name: 'warwick',
-    age: 21,
-    speak(text) {
-        console.log(text);
-    },
-    spend(amount) {
-        console.log('I spent', amount);
-        return amount;
-    }
-};
-const greetPerson = (person) => {
-    console.log('hello', person.name);
-};
-greetPerson(me);
 import { Invoice } from "./classes/Invoice.js";
+import { Payment } from "./classes/Payment.js";
+let docOne;
+let docTwo;
+docOne = new Invoice('yoshi', 'web work', 250);
+docOne = new Payment('mario', 'plumbing work', 250);
 const invOne = new Invoice('patrick', 'work in the mario website', 250);
 const invTwo = new Invoice('gary', 'work in the gary website', 300);
 let invoices = [];
